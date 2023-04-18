@@ -30,7 +30,7 @@ Examples:
 - 210426_1225-50Mbps-4g-weak-bbb_4s-BBA.csv
 #### Data format
 Each .csv file corresponds to the data of a video session. The bitrate of each chunk is determined by the ABR algorithm. For each row from the 2nd line (the 1st line is the title filed) in the file, the format is as follows:
-`[downstream_bandwidth(Mbps)],[connection_type],[signal_strength],[bitrate(Kbps)],[chunk_size(KBytes)],[app_throughput(Kbps)],[delivery_time(s)],[player_state],[relative_chunk_index]`
+`[downstream_bandwidth],[connection_type],[signal_strength],[bitrate(Kbps)],[chunk_size(KBytes)],[app_throughput(Kbps)],[delivery_time(s)],[player_state],[relative_chunk_index]`
 
 Examples:
 
