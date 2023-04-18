@@ -1,5 +1,6 @@
 # Lumos
 This repository releases a dataset of adaptive video streaming, which was collected in real-world mobile networks from December 2019 to May 2021 and used in the following paper:
+
 Gerui Lv, Qinghua Wu, Weiran Wang, Zhenyu Li, and Gaogang Xie, "[Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948)," _IEEE INFOCOM 2022._
 
 ## Dataset Statistics
@@ -30,6 +31,7 @@ Examples:
 #### Data format
 Each .csv file corresponds to the data of a video session. The bitrate of each chunk is determined by the ABR algorithm. For each row from the 2nd line (the 1st line is the title filed) in the file, the format is as follows:
 `[downstream_bandwidth(Mbps)],[connection_type],[signal_strength],[bitrate(Kbps)],[chunk_size(KBytes)],[app_throughput(Kbps)],[delivery_time(s)],[player_state],[relative_chunk_index]`
+
 Examples:
 
 - 5M,wifi,weak,4300,20137,6965,2.891,steady,1
@@ -49,6 +51,7 @@ Examples:
 - 200504_1000-5Mbps-wifi-weak-bbb_4s-1200Kbps.csv
 #### Data format
 Each .csv file corresponds to the data of a video session at a constant bitrate. The data format is the same as in ABR data except for `relative_chunk_index`. In constant data, `relative_chunk_index` stays 0 for the steady state while increasing from 1 for the buffering state.
+
 Examples:
 
 - 50M,4g,weak,2850,15,116,0.125,steady,0
