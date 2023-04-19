@@ -16,7 +16,7 @@ The dataset contains 590 video sessions running ABR algorithms (`ABR_data`, 392 
 #### File name format
 `[Test time]-[Downstream bandwidth]-[Connection type]-[Signal strength]-[Video]-[ABR algorithm].csv`
 
-- `Test time`: session start time; the format in Python strftime() and strptime() is "%y%m%d_%H%M"
+- `Test time`: start time of a test; the format in Python strftime() and strptime() is "%y%m%d_%H%M"
 - `Downstream bandwidth`: ["5Mbps", "50Mbps"], the limited bandwidth of the server
 - `Connection type`: ["wifi_2.4GHz", "wifi_5GHz", "4g"]
 - `Signal strength`: ["strong", "medium", "weak"]
