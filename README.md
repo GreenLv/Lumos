@@ -1,5 +1,5 @@
 # Lumos
-This repository releases a dataset of adaptive video streaming, which was collected in real-world mobile networks from December 2019 to May 2021 and used in the following paper:
+This repository releases a dataset about the throughput and delivery time of adaptive video streaming, which was collected in real-world mobile networks from December 2019 to May 2021 and used in the following paper:
 
 Gerui Lv, Qinghua Wu, Weiran Wang, Zhenyu Li, and Gaogang Xie, "[Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948)," _IEEE INFOCOM 2022._
 
