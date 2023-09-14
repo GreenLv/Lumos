@@ -1,7 +1,9 @@
 # Lumos
-This repository releases a dataset about the throughput and delivery time of adaptive video streaming, which was collected in real-world mobile networks from December 2019 to May 2021 and used in the following paper:
+This repository releases a dataset about the throughput and delivery time of adaptive video streaming, which was collected in real-world mobile networks from December 2019 to May 2021 and used in the following papers:
 
-Gerui Lv, Qinghua Wu, Weiran Wang, Zhenyu Li, and Gaogang Xie, "[Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948)," _IEEE INFOCOM 2022._
+- Gerui Lv, Qinghua Wu, Weiran Wang, Zhenyu Li, and Gaogang Xie, "[Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/abstract/document/9796948)," _IEEE INFOCOM 2022._
+
+- Gerui Lv, Qinghua Wu, Qingyue Tan, Weiran Wang, Zhenyu Li, and Gaogang Xie, "[Accurate Throughput Prediction for Improving QoE in Mobile Adaptive Streaming](https://ieeexplore.ieee.org/abstract/document/10246426)," _IEEE Transactions on Mobile Computing (TMC) 2023._
 
 ## Dataset Statistics
 The dataset contains 590 video sessions running ABR algorithms (`ABR_data`, 392 sessions) and with constant bitrate level (`constant_data`, 198 sessions). Each session typically has a 5-minute or 5.5-minute playback duration. The following table provides detailed statistics. For more information, please refer to our paper.
