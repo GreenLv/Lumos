@@ -14,9 +14,7 @@ from sklearn.feature_selection import mutual_info_classif
 from sklearn.feature_selection import mutual_info_regression
 from sklearn.metrics import make_scorer, r2_score
 from sklearn.metrics import mean_squared_error as mse
-from scipy import stats
 from io import StringIO
-import argparse
 import pydotplus
 from joblib import dump, load
 import matplotlib.pyplot as plt
@@ -115,14 +113,12 @@ CPP_THRESHOLD = 300
 OUTLIER_TRESH = 100  # Mbps
 
 # constant value
-BIT_RATE_OLD_ED = [147.76, 676.67, 1131.42, 1983.08, 3988.49]  # old ED
-BIT_RATE_OLD_BBB = [141.09, 318.60, 676.84, 1086.76, 1790.50, 3515.53]  # old BBB
 BIT_RATE = [300, 750, 1200, 1850, 2850, 4300]  # Kbps
 M_IN_K = 1000.0
 VIDEO_SOURCE = ['bbb', 'bbb-an', 'bbb-4s-an', 'ed-an', 'ed-4s-an']
 DB = ['50M', '5M']
 CT = ['wifi', '4g']
-SS = ['strong', 'middle', 'weak']
+SS = ['strong', 'medium', 'weak']
 PS = ['buffering', 'steady']
 
 # FEATURE_NAMES = ['downstream_bandwidth', 'link_stat', *['connection_type_' + ct for ct in CT],
